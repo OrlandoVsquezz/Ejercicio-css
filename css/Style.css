@@ -7,7 +7,7 @@ header {
     background-color: rgb(0, 0, 0);
     font-family: 'Roboto';
     place-items: center;
-    padding: 15px;
+    padding: 19px;
 }
 
 .he {
@@ -26,7 +26,7 @@ nav a {
 }
 
 a {
-    padding: 10px;
+    padding: 14px;
 }
 
 a:hover {
@@ -36,32 +36,29 @@ a:hover {
 }
 
 .imayo {
+    background-image: url(../img/practyoga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     top: -100px;
 }
 
-.imagen {
-    width: 100%;
-    position: ab;
-    top: -100px;
-}
-
-/*.pi { 
+.pi { 
     font-family: 'Caveat';
     font-size: 50px;
     position: relative;
-    top: 260px;
+    top: 230px;
     text-align: center;
 }
 
 .pa {
     font-family: "Roboto", sans-serif;
     position: relative;
-    top: 360px;
+    top: 310px;
     text-align: center;
     color: rgb(235, 226, 226);
     
-}*/
+}
 
 .tarjeta {
     padding: 5px 0px;
@@ -69,9 +66,8 @@ a:hover {
     justify-content: center;
 }
 
-
-
 .card {
+    cursor: pointer;
     margin: 13px;
     width: 300px;
     border-radius: 0px;
@@ -101,7 +97,7 @@ a:hover {
 
 .card:hover {
     background-color: rgb(245, 238, 238);
-    transform: scale(1.01);
+    transform: scale(1.03);
 }
 
 footer {
@@ -116,6 +112,3 @@ footer {
 .pe {
    padding: 0px 100px;
 }
-
-
-
